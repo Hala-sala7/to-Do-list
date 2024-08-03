@@ -5,12 +5,12 @@ import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDnM7v5oJFTEQ4Ty_qI1IUBxXqZk8onqP8",
-  authDomain: "todop-app-488c3.firebaseapp.com",
-  projectId: "todop-app-488c3",
+  authDomain: "todoapp-2a693.firebaseapp.com",
+  projectId: "todoapp-2a693",
   storageBucket: "todop-app-488c3.appspot.com",
-  messagingSenderId: "418301332952",
-  appId: "1:418301332952:web:b44135f8b509c56301f6ad",
-  measurementId: "G-G6WDQSPE64"
+  messagingSenderId: "123466471875",
+  appId: "1:123466471875:web:c77df3b5b67c9fe7808576",
+  measurementId: "G-JXEJ5DQ0F6"
 };
 
 // Initialize Firebase
