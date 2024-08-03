@@ -15,6 +15,7 @@ import { redirect } from "next/navigation";
 import { useRouter } from 'next/navigation';
 import { useAuth } from "@firebase/auth.js";
 import Loading from "../loading.js";
+import "./styless.css";
 
 const Register = () => {
   const router = useRouter();
@@ -85,18 +86,7 @@ const Register = () => {
   };
 
   return ( isLoading || (!isLoading && authUser) ? (<><Loading /> </>) : (
-    <main className="flex flex-col lg:flex-row lg:h-screen">
-      <div className="w-full lg:w-2/5">
-        <div className="h-48 lg:h-full relative">
-          <Image
-            src="/login-banner.jpg"
-            alt="Login Banner"
-            fill={true}
-            className="object-cover"
-            priority={true}
-          />
-        </div>
-      </div>
+    <main className="flex flex-col lg:flex-row lg:h-screen signUpContainerDiv ">
       <div className="w-full lg:w-3/5 p-8 md:p-14 flex items-center justify-center">
         <div className="w-full lg:w-4/5 xl:w-3/5">
           <h1 className="text-4xl md:text-6xl font-semibold">Sign Up</h1>

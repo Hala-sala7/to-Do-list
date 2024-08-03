@@ -1,0 +1,13 @@
+main {
+    background-color: #f0f0f0; /* Gray background for the full page */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+ 
+  input{
+    padding: 7px !important;
+  }
+  
