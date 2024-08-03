@@ -1,13 +1,12 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDnM7v5oJFTEQ4Ty_qI1IUBxXqZk8onqP8",
+  apiKey: "AIzaSyBz0Mi7lJzc_flStbHqeyhS8hadnmF4big",
   authDomain: "todoapp-2a693.firebaseapp.com",
   projectId: "todoapp-2a693",
-  storageBucket: "todop-app-488c3.appspot.com",
+  storageBucket: "todoapp-2a693.appspot.com",
   messagingSenderId: "123466471875",
   appId: "1:123466471875:web:c77df3b5b67c9fe7808576",
   measurementId: "G-JXEJ5DQ0F6"
